@@ -1,0 +1,74 @@
+h1,
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.app {
+  background-color: black;
+  height: 100vh;
+  color: white;
+ }
+ 
+ .header{
+ font-size: 2rem;
+ font-weight: 900;
+ height: 10vh;
+ border-bottom: 1px solid white;
+ 
+ }
+ .align-center{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .board{
+   height: 90vh;
+   font-size: 2rem;
+ font-weight: 900;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ }
+ 
+ .row{
+   display: flex;
+   height: 20vh;
+ }
+ 
+ .cell{
+   width: 25vw;
+   border: 1px solid white;
+   color: black;
+   font-size: 5rem;
+  
+ }
+ 
+ 
+ .yellow{
+ background-color: yellow;
+ }
+ 
+ .orange{
+ background-color: orange;
+ }
+ 
+ .btn{
+   height: 5vh;
+   width: 20vw;
+   font-size: 1rem;
+   background-color: blueviolet;
+   color: white;
+  width: 200px;
+  margin-bottom: 20px;
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
